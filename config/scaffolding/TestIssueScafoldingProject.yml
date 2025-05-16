@@ -8,19 +8,15 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.testissuescafolding.integrations:Test23
-  packages:
-  - name: TestIssueScafoldingProject
-    version: "1.0"
-- serviceName: pub.date:currentNanoTime
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2058
 - serviceName: project.testissuescafolding.integrations:test1X
   packages:
   - name: TestIssueScafoldingProject
     version: "1.0"
 - serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2058
+- serviceName: pub.date:currentNanoTime
   packages:
   - name: WmPublic
     version: 11.1.0.0.2058
