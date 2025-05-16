@@ -7,11 +7,6 @@ packages:
   gitUrl: https://github.com/santhu736852
   gitUsername: santhu736852
   gitBranch: main
-- name: DesignerStepsInCloudEditorAllVarTypeInpOut
-  gitServerName: GH_SK
-  gitUrl: https://github.com/santhu736852
-  gitUsername: santhu736852
-  gitBranch: main
 services:
 - serviceName: project.testissuescafolding.integrations:test1X
   packages:

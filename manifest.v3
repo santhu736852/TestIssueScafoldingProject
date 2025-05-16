@@ -8,18 +8,17 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="DesignerStepsInCloudEditorAllVarTypeInpOut">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">32</value>
+  <value name="build">33</value>
   <null name="description"/>
   <value name="created_date">16-05-2025 08:52:35 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-05-16T09:57:46.819912013Z</value>
+  <value name="lastUpdated">2025-05-16T09:58:47.650926788Z</value>
   <value name="wmProjectId">fldb87a5a2a110f4992a726c</value>
   <value name="creator">Santhosh K</value>
 </Values>
