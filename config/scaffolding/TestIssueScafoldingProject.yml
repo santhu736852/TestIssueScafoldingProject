@@ -24,3 +24,7 @@ services:
   packages:
   - name: TestIssueScafoldingProject
     version: "1.0"
+- serviceName: project.testissuescafolding.referencedata:TesRefData
+  packages:
+  - name: TestIssueScafoldingProject
+    version: "1.0"
