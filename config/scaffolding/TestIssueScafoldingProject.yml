@@ -20,3 +20,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2058
+- serviceName: project.testissuescafolding.integrations:test1X1
+  packages:
+  - name: TestIssueScafoldingProject
+    version: "1.0"
