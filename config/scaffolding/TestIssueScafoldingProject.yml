@@ -8,7 +8,7 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.testissuescafolding.integrations:test1X
+- serviceName: project.testissuescafolding.integrations:Copy_test1X1
   packages:
   - name: TestIssueScafoldingProject
     version: "1.0"
@@ -20,6 +20,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2058
+- serviceName: project.testissuescafolding.integrations:test1X
+  packages:
+  - name: TestIssueScafoldingProject
+    version: "1.0"
 - serviceName: project.testissuescafolding.integrations:test1X1
   packages:
   - name: TestIssueScafoldingProject
