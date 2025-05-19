@@ -4,17 +4,18 @@
   <record name="record" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
     <value name="node_subtype">unknown</value>
-    <value name="node_nsName">project.testissuescafolding.documenttypes:docTypeRef_bks_BooksForm</value>
+    <value name="node_nsName">project.testissuescafolding.documenttypes:copy</value>
     <value name="node_pkg">TestIssueScafoldingProject</value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">santhosh</value>
         <value name="createdByUserId">86de9bb3dc524e13a7085a9be540c393</value>
-        <number name="createdDate" type="Long">1747657204226</number>
+        <number name="createdDate" type="Long">1747386816699</number>
         <value name="lastModifiedBy">santhosh</value>
         <value name="lastModifiedByUserId">86de9bb3dc524e13a7085a9be540c393</value>
-        <number name="lastModifiedDate" type="Long">1747657204226</number>
+        <number name="lastModifiedDate" type="Long">1747386816699</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,33 +23,25 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">be0c5292b03b4beda6488ff4d5103807</value>
-    <value name="docTypeDomain">94abddf96f044070ae3c274002a4ddf5</value>
-    <value name="originURI">books.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
-        <value name="field_name">book</value>
-        <value name="field_type">recref</value>
-        <value name="field_dim">1</value>
-        <value name="field_opt">true</value>
-        <value name="nillable">false</value>
+        <value name="field_name">test1</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
-        <value name="is_soap_array_encoding_used">false</value>
-        <value name="rec_closed">true</value>
-        <value name="modifiable">true</value>
-        <value name="rec_ref">project.testissuescafolding.documenttypes:docTypeRef_bks_BookForm</value>
       </record>
     </array>
-    <record name="schemaType" javaclass="com.wm.util.Values">
-      <value name="xmlns">urn:books</value>
-      <value name="ncName">BooksForm</value>
-    </record>
-    <value name="schemaRegistered">true</value>
-    <value name="modifiable">false</value>
-    <value name="updateRSD">true</value>
+    <value name="modifiable">true</value>
   </record>
 </Values>
